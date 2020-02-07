@@ -211,18 +211,3 @@ p.link_content {
     width: 40em;
     padding: 2em 0 3em 0;
 }
-div.donation {
-    width: 100%;
-    height: auto;
-    padding: 3em 0 1em 0;
-    display: flex;
-    display: -webkit-flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-img.donation {
-    width: 100%;
-    max-width: 25em;
-    height: auto;
-}
