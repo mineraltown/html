@@ -4,65 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" media="screen and (max-width:800px)" type="text/css" href="ksz_mobile.css" />
-    <link rel="stylesheet" media="screen and (min-width:801px)" type="text/css" href="ksz.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61299624-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-61299624-1');
-    </script>
-    <title>Re：从零开始的牧场生活</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" media="screen and (min-width:801px)" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width:800px)" href="main_m.css">
+    <title>矿石镇的攻略百科</title>
 </head>
 
 <body>
-    <div class="menu">
-        <a href="./index.html">
-            <div class="list">首页</div>
-        </a>
-        <a href="http://wiki.mineraltown.net/">
-            <div class="list">百科</div>
-        </a>
-        <a href="https://github.com/mineraltown">
-            <div class="list">开源</div>
-        </a>
-        <a href="./community.html">
-            <div class="list">社区</div>
-        </a>
-        <a href="./disclaimer.html">
-            <div class="list">免责声明</div>
-        </a>
-        <a href="./about.html">
-            <div class="list">关于本站</div>
-        </a>
-    </div>
-    <div class="body">
+    <div id="app">
+        <div class="head">
+            <img class="logo" src="logo.svg">
+        </div>
+        <div class="menu">
+            <a href="https://www.mineraltown.net/" class="link">首页</a>
+            <a href="https://wiki.mineraltown.net/" class="link">百科</a>
+            <a href="https://github.com/mineraltown" target="_blank" class="link">开源</a>
+            <a href="http://wiki.mineraltown.net/community.html" class="link">社区</a>
+            <a href="http://wiki.mineraltown.net/disclaimer.html" class="link">免责声明</a>
+            <a href="http://wiki.mineraltown.net/about.html" class="link">关于本站</a>
+        </div>
         <div class="main">
-            <div class="flex_end">
-                <div class="end">
-                    <img src="beian.png" style="float:left;width:auto;" />&nbsp;<a
-                        href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021102000889"
-                        target="_blank" class="beian">鲁公网安备 37021102000889号</a>
+                <div class="main_left">
+                    <img src="Marvelous.png">
+                </div>
+        </div>
+        <div class="side">
+        </div>
+        <div class="fill"></div>
+        <div class="info">
+            <div class="info_box">
+                <div class="copy">
+                    <div class="flex_center"><img src="https://wiki.mineraltown.net/icon/beian.png">&nbsp;<a
+                            href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021102000889"
+                            target="_blank" class="beian">鲁公网安备 37021102000889号</a></div>
+                    <div class="flex_center">互联网ICP备案：<a href="http://beian.miit.gov.cn/" target="_blank"
+                            class="beian">鲁ICP备19052606号-1</a>
+                    </div>
                     <br>
-                    互联网ICP备案：<a href="http://beian.miit.gov.cn/" target="_blank" class="beian">鲁ICP备19052606号-1</a>
-                    <br>
-                    mineraltown.net&nbsp;&copy;&nbsp;2015-2020&nbsp;·&nbsp;<a href="https://weibo.com/mineraltown"
-                        target="_blank" class="beian">矿石镇</a>
+                    <div class="flex_center">矿石镇的攻略百科 © 2022</div>
                 </div>
             </div>
-        </div>
-        <div class="title">
-            <p class="re0">
-                <snap class="re">Re:</snap> <br>从<br>零<br>开<br>始<br>的<br>牧<br>场<br>生<br>活
-            </p>
         </div>
     </div>
 </body>
